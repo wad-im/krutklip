@@ -2,13 +2,16 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Hero from "../components/hero"
+import Sections from "../components/sections"
+import Sidebar from "../components/Sidebar"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1 className="text-3xl font-bold">
-      The beginning for Krutklip's website.
-    </h1>
+    <Sidebar/>
+    <Hero/>
+    <Sections/>
   </Layout>
 )
 

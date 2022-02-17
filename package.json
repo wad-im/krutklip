@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Wadim Baslow",
   "dependencies": {
+    "@tabler/icons": "^1.53.0",
     "gatsby": "^4.7.2",
     "gatsby-plugin-gatsby-cloud": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
@@ -17,7 +18,8 @@
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
@@ -26,9 +28,6 @@
     "prettier": "^2.5.1",
     "tailwindcss": "^3.0.22"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -38,12 +37,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

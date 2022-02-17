@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply mx-auto text-sky-900 bg-stone-50;
+  }
+  h2 {
+    @apply font-bold mb-4 text-4xl font-bold;
+  }
+}
